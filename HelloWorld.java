@@ -6,19 +6,15 @@ public class HelloWorld
         int b = 2;
         int c = 1;
         int d = -8;
-        int i = 0;
-        while(i < 15){
-            System.out.println("i is less than 15");
-            i = i + 1;
+     
+        for(int i = 0; i < 15; i++){
+            System.out.println("i is " + i);
         }
-        int k = 6;
-        while (k > 5){
-            System.out.println("k is greater than 5");
-            k = k -1;
+        for (int j = 10; j != 0; j = j - 2){
+            System.out.println("j is not 0");
         }
-        while (a < 10 & b <= 20){
-            System.out.println("both conditions have been met");
-            a = a + 1;
+        for (int k = 10; k != 0; k = k - 3){
+            System.out.println("k will subtract to negative numbers");
         }
     }
 }
